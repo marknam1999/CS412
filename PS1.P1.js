@@ -6,7 +6,7 @@
  */
 
 const reverseString = inputString => {
-    return inputString.sort().reverse().join();
+    return inputString.split('').sort().reverse().join('');
 }
 
 
